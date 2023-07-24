@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+nav {
+    background-color: #11091A;
+    display: flex;
+    height: 94px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sahil-logo {
+    font-family: 'Grape Nuts';
+    color: #FFF;
+    font-size: 38.362px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.151px;
+    margin-left: 100px;
+}
+@media (max-width: 668px) {.sahil-logo { margin-left: 15px; }}
+
+.say-hello-btn {
+    width: 144.97px;
+    height: 57.529px;
+    transform: rotate(-0.108deg);
+    flex-shrink: 0;
+    border-radius: 60.706px;
+    border: 1.98px solid #9A12F6;
+    background-color: transparent;
+    margin-right: 100px;
+}
+@media (max-width: 668px) {.say-hello-btn { margin-right: 15px; }}
+
+.say-hello-text {
+    transform: rotate(-0.108deg);
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    font-size: 16px;
+}
