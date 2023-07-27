@@ -7,6 +7,8 @@ nav {
     height: 94px;
     align-items: center;
     justify-content: space-between;
+    /* Maybe delete this later on */
+    margin-top: 8px;
 }
 
 .sahil-logo {

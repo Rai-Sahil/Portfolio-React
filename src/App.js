@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar/NavBar';
-import HomePage from './Pages/HomePage';
+import HomePage from './Pages/HomePage/HomePage';
+import Skills from './Pages/SkillsPage/SkillsPage';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <NavBar />
       <section className="page-body">
         <HomePage />
+        <Skills /> {/* Skills section for the after the dropdown line */}
       </section>
     </div>
   );
