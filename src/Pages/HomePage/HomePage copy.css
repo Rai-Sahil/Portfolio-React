@@ -6,8 +6,6 @@
 }
 
 .sahil-rai-heading {
-    margin-top: 0px;
-    margin-top: 46px;
     font-family: 'Montserrat';
     font-size: 92px;
     font-style: normal;
@@ -17,8 +15,9 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: 716px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: start;
 }
 
 .my-bio-container {
@@ -108,7 +107,7 @@
 
 .line-container-parent {
     width: 100%;
-    margin-top: 10.28px;
+    margin-top: 81.28px;
 }
 
 .line-container-child {
@@ -170,74 +169,4 @@
     background-clip: text;
     -webkit-text-stroke: 1px #343137; 
     transform: translateX(-150px) translateY(20px);
-}
-
-
-
-
-
-
-.color-text {
-    background-clip: text;
-    -webkit-background-clip: text; /* For Safari */
-    color: transparent; /* Hide the actual text color */
-    background-image: linear-gradient(90deg, #E9A560 0%, #E257B3 100%);
-}
-
-.my-bio-line {
-    margin-top: 23px;
-    font-family: 'Poppins';
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 1px;
-}
-
-.pic-and-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 81px;
-    margin-top: 88px;
-}
-
-.pic {
-    display: flex;
-    width: 232.181px;
-    height: 232.181px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    
-    border-radius: 967.423px;
-    background: #7510F7;
-}
-
-.download-cv-button {
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 18.808px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.752px;
-    width: 216.478px;
-    height: 62.013px;
-    flex-shrink: 0;
-    border-radius: 13.132px;
-    background: linear-gradient(136deg, #9712FF 0%, #9712FF 0.01%, rgba(255, 34, 48, 0.92) 95.31%, rgba(52, 6, 6, 0.95) 97.92%);
-}
-
-.my-main-pic {
-    display: flex;
-    width: 232.181px;
-    height: 232.181px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    
-    border-radius: 967.423px;
-    background: #7510F7;
 }

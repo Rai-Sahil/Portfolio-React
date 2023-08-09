@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.footer-heading {
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Poppins';
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: start;
+    margin-top: 100px;
+}
+
+.text1 {
+    color: #E5B76F;
+    margin: 0%;
+}
+
+.text2 {
+    color: #6C68EB;
+    margin: 0%;
+}
+
+.text3 {
+    color: #AD85D8;
+    margin: 0%;
+}
+
+.footer-description {
+    margin-top: 100px;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.footer-name {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.footer-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    margin: 0%;
+}
+
+.social-links {
+    column-gap: 20px;
+    margin-top: 32px;
+    align-content: center;
+}
+
+.social-links a {
+    margin-right: 20px; /* Add a 20px gap between each icon */
+}
+
+/* If you want to remove the margin on the last icon */
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 57px;
+    margin-bottom: 48px;
+}
+
+.contact-card{
+    box-shadow: '2.048666000366211px 0px 13.316329002380371px rgba(0, 0, 0, 0.25)';
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
+}
+
+.card-content {
+    color: #FFF;
+    text-align: start;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    flex-shrink: 0;
+    margin: 0%;
+}
+
+.contact-card-heading {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-card-description {
+    color: var(--green, #D18473);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.copyright {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Poppins';
+    margin-bottom: 171px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read-more {
+    color: var(--green, #D18473);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }

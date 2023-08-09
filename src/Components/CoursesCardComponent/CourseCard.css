@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.course-type-boxes {
+    background-color: #1A0E2B;
+    border-radius: 15px;
+}
+
+.heading-area {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px 42.49px 50px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 25.279px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+b {
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.plus {
+    width: 30.102px;
+    height: 30.102px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 30px;
+    background-color: #C24FB5;
+    border: 0px;
+    transition: 0.5s ease-in;
+}
+
+.minus {
+    width: 30.102px;
+    height: 30.102px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 30px;
+    background-color: #373737;
+    border: 0px;
+    transition: 0.5s ease-out;
+}
+
+.card-content {
+    margin-left: 50px;
+    justify-content: space-between;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.course-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.credential-button {
+    margin-right: 50px;
+    background: none;
+    color: #989898;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    border: 1px solid #C24FB5;
+}
+
+.courses-list {
+    padding-bottom: 18px;
+}

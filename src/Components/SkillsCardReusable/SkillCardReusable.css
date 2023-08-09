@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.skill-card{
+    width: 247px;
+    height: 104px;
+    background: #1A0E2B;
+    box-shadow: '2.048666000366211px 0px 13.316329002380371px rgba(0, 0, 0, 0.25)';
+    border-radius: 18.44px;
+    margin-bottom: 64px;
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+}
+
+.card-content {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    flex-shrink: 0;
+    margin: 0%;
+}
+
+.skill-image {
+    margin-left: 15px;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.skill-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    row-gap: 15px;
+}
+
+/* Responsive adjustments using media queries */
+@media (max-width: 768px) {
+    .skill-cards-container {
+        align-items: center;
+    }
+}
+
+.view-more {
+    font-family: 'Poppins';
+    color: var(--green, #D18473);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}

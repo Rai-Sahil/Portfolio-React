@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar-routes-container {
+    position: relative;
+    margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    column-gap: 67px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    margin-bottom: 77px;
+}
+
+.link-style {
+    color: #AC9C9C;
+    text-decoration: none;
+}

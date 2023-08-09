@@ -19,7 +19,6 @@ nav {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.151px;
-    margin-left: 100px;
 }
 @media (max-width: 668px) {.sahil-logo { margin-left: 15px; }}
 
@@ -31,7 +30,6 @@ nav {
     border-radius: 60.706px;
     border: 1.98px solid #9A12F6;
     background-color: transparent;
-    margin-right: 100px;
 }
 @media (max-width: 668px) {.say-hello-btn { margin-right: 15px; }}
 
