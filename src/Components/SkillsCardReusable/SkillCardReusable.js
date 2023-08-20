@@ -7,8 +7,8 @@ const SkillCardsComponent = ({ skills, showAll }) => {
         <>
             { showSkill.map(( skill ) => (
                 <div key={ skill.name } className='skill-card'>
-                    <img src={ skill.image } alt='skill image' className='skill-image'/>
-                    <p className='card-content'>
+                    <img src={ skill.image } alt='skill image' className='skill-image' />
+                    <p className='card-content' id={ skill.name }>
                         { skill.title }
                     </p>
                 </div>

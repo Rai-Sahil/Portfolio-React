@@ -92,7 +92,7 @@ const ExperiencePage = () => {
                     </div>
                     </div>
 
-                    <div className='line'>
+                    <div className='exp-line'>
                         <span className='image-section'>
                             <img src={ universityImage } className='image'></img>
                             <img src={ universityImage } className='image'></img>

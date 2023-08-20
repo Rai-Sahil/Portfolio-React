@@ -9,7 +9,12 @@
     margin-bottom: 64px;
     align-items: center;
     display: flex;
-    column-gap: 10px;
+    transition: transform 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #9712FF;
 }
 
 .card-content {
@@ -23,8 +28,13 @@
     letter-spacing: 0.88px;
     flex-shrink: 0;
     margin: 0%;
+    transform: translateX(-20px);
 }
 
 .skill-image {
     margin-left: 15px;
+}
+
+#androiddev {
+    transform: translateX(-40px);
 }

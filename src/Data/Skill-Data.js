@@ -12,6 +12,16 @@ import r from '../Image/SkillSection/Rstudio.svg'
 import cpp from '../Image/SkillSection/cpp.svg'
 import aws from '../Image/SkillSection/aws.svg'
 import csharp from '../Image/SkillSection/csharp.svg'
+import graphql from '../Image/SkillSection/graphql.svg'
+import androiddev from '../Image/SkillSection/androiddev.svg'
+import firebase from '../Image/SkillSection/firebase.svg'
+import jest from '../Image/SkillSection/jest.svg'
+import materialUi from '../Image/SkillSection/material-ui.svg'
+import mongodb from '../Image/SkillSection/mongodb.svg'
+import react from '../Image/SkillSection/reactjs.svg'
+import ubuntu from '../Image/SkillSection/ubuntu.svg'
+import vim from '../Image/SkillSection/vim.svg'
+
 
 const skills = [
     {
@@ -26,15 +36,6 @@ const skills = [
         name: 'net',
         title: '.Net',
         image: dotnetVector
-    },{
-        name: 'css',
-        title: 'CSS',
-        image: cssVector
-    },
-    {
-        name: 'html',
-        title: 'HTML',
-        image: htmlVector
     },{
         name: 'git',
         title: 'Git',
@@ -71,6 +72,43 @@ const skills = [
         name: 'csharp',
         title: 'C#',
         image: csharp
+    },
+    {
+        name: 'graphql',
+        title: 'GraphQL',
+        image: graphql
+    },{
+        name: 'androiddev',
+        title: 'Android Dev',
+        image: androiddev
+    },{
+        name: 'firebase',
+        title: 'Firebase',
+        image: firebase
+    },{
+        name: 'jest',
+        title: 'Jest',
+        image: jest
+    },{
+        name: 'material-ui',
+        title: 'Material UI',
+        image: materialUi
+    },{
+        name: 'mondodb',
+        title: 'MongoDB',
+        image: mongodb
+    },{
+        name: 'reactjs',
+        title: 'ReactJS',
+        image: react
+    },{
+        name: 'ubuntu',
+        title: 'Ubuntu',
+        image: ubuntu
+    },{
+        name: 'vim',
+        title: 'Vim',
+        image: vim
     },
 
 ];

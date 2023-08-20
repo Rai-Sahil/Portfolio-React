@@ -14,7 +14,7 @@
     transform: translateX(250px) translateY(100px);
 }
 
-.line {
+.exp-line {
     height: 830px;
     width: 10px;
     background: linear-gradient(180deg, #2F2BD4 0%, #D61839 33.33%, #9C35ED 71.35%, #1D23B6 100%);
