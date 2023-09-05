@@ -31,34 +31,6 @@ const ExperiencePage = () => {
 
             <div className='watch-container' />
                 <div className='exerience-card-coontainer'>
-                    {/* <div className='exp-card'>
-                        <div className='card-content'>
-                            <span className='year'>2021</span>
-                            <span className='description'>Hello World</span>
-                        </div>
-                    </div>
-
-                    <div className='exp-card1'>
-                        <div className='card-content'>
-                            <span className='description1'>Hello World</span>
-                            <span className='year1'>2021</span>
-                        </div>
-                    </div>
-
-                    <div className='exp-card'>
-                        <div className='card-content'>
-                            <span className='year'>2021</span>
-                            <span className='description'>Hello World</span>
-                        </div>
-                    </div>
-
-                    <div className='exp-card1'>
-                        <div className='card-content'>
-                            <span className='description'>Hello World</span>
-                            <span className='year'>2021</span>
-                        </div>
-                    </div> */}
-
                     <div className='cards'>
                     <div className='exp-card1'>
                         <p className='exp-card-content'>

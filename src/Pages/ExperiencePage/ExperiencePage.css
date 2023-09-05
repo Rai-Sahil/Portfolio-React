@@ -52,6 +52,20 @@
     display: flex;
 }
 
+@media screen and (max-width: 1362px) {
+    .exp-card2, .exp-card1{
+        transform: translateX(-230px);
+    }
+
+    .exp-card2{
+        transform: translateX(-30px);
+    }
+
+    .exp-card1{
+
+    }
+}
+
 
 .exp-card2{
     transform: translateX(-270px) translateY(-13px);

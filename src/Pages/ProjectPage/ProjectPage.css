@@ -9,6 +9,22 @@
     row-gap: 30px;
 }
 
+@media screen and (max-width: 1322px) {
+    .card-container {
+        column-gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1211px) {
+    .card-container {
+        column-gap: 10px;
+    }
+
+    .image-box{
+        display: none;
+    }
+}
+
 .content-box, .image-box {
     max-width: 471px;
     height: 322px;
