@@ -6,32 +6,31 @@ import { useState } from 'react'
 
 
 const Skills = () => {
-
-    const [viewAll, setVieAll] = useState(false);
-    const [buttonText, setButtonText] = useState('View all')
+    const [viewAll, setViewAll] = useState(false);
+    const [buttonText, setButtonText] = useState('View all');
 
     const handleViewAllClick = () => {
-        setVieAll((value) => !value)
-        setButtonText((text) => {
-            if (text === 'View all') {
-                return 'View less'
-            }
-            else {
-                return 'View all'
-            }
-        })
-    }
+        setViewAll((value) => !value);
+        setButtonText((text) => (text === 'View all' ? 'View less' : 'View all'));
+    };
 
     return (
-        <div className='skill-section'>
-            <Headings context="My" main_word='Skills' />
+        // JSX
+        <div className="skill-section">
+            <Headings context="My" main_word="Skills" />
 
-            <div className='skill-cards-container'>
-                <SkillCardsComponent skills={ skills } showAll={ viewAll }/>
+            <div className="skill-cards-wrapper">
+                <div className="skill-cards-container">
+                    <SkillCardsComponent skills={skills} showAll={viewAll} />
+                </div>
             </div>
-            <p className='view-more' onClick={ handleViewAllClick }>{ buttonText }</p>
-        </div>
-    )
-}
 
-export default Skills
+            <p className="view-more" onClick={handleViewAllClick}>
+                {buttonText}
+            </p>
+        </div>
+
+    );
+};
+
+export default Skills;

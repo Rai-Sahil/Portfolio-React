@@ -1,27 +1,42 @@
+/* CSS */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-.skill-cards-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    column-gap: 45px;
-    row-gap: 15px;
+/* Styles for the outer container with padding */
+.skill-cards-wrapper {
+  padding: 0 20px; /* Adjust the padding as needed */
+}
+
+/* Styles for the skill cards container */
+.skill-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px; /* Use gap instead of column-gap and row-gap */
 }
 
 /* Responsive adjustments using media queries */
 @media (max-width: 768px) {
-    .skill-cards-container {
-        align-items: center;
-    }
+  .skill-cards-container {
+    flex-direction: column; /* Stack skill cards vertically */
+    align-items: center; /* Center-align skill cards */
+  }
 }
 
+/* Styles for the "View More" text */
 .view-more {
-    font-family: 'Poppins';
-    color: var(--green, #D18473);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.66px;
+  font-family: 'Poppins';
+  color: var(--green, #D18473);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+
+/* Additional styles for the "View All" layout */
+.viewAll .skill-cards-container {
+  flex-direction: column; /* Stack skill cards vertically */
+  align-items: center; /* Center-align skill cards */
 }
