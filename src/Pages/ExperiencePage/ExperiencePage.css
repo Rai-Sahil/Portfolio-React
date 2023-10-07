@@ -127,3 +127,27 @@
     letter-spacing: 0.93px;
     transform: translateX(-20px);
 }
+
+@media screen and (min-width: 1322px) {
+    .exerience-card-coontainer {
+        transform: translateX(-350px) translateY(600px);
+    }
+
+    .watch-container {
+        transform: translateX(500px);
+    }
+
+    .expirience-container {
+        margin-bottom: 320px;
+    }
+}
+
+@media screen and (min-width: 1322px) {
+    .exerience-card-coontainer {
+        transform: translateX(-500px) translateY(600px);
+    }
+
+    .watch-container {
+        transform: translateX(650px);
+    }
+}
