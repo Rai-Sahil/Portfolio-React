@@ -11,7 +11,6 @@ const CourseList = ({ course }) => {
                 {course.map((name, index) => (
                     <li className="course-name" key={index}>
                         <span>{name}</span>
-                        <button className="credential-button">View credentials</button>
                     </li>
                 ))}
             </ul>

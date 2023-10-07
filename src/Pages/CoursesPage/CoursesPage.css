@@ -1,0 +1,17 @@
+/* CoursesPage.css */
+
+/* Add 100px margins on both sides when the screen width is greater than 1200px */
+@media screen and (min-width: 1201px) {
+    .course-section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+/* Add 50px margins on both sides when the screen width is 1200px or less */
+@media screen and (max-width: 1200px) {
+    .course-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

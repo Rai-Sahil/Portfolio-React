@@ -7,7 +7,7 @@ import CoursesData from "../../Data/Course-Data";
 const Courses = () => {
 
     return (
-        <div>
+        <div className="course-section">
             <Headings context='Enroll in my' main_word='Educational Background' />
 
             <CourseCard Courses={ CoursesData } />
