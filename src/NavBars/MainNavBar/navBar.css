@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
 nav {
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #11091A;
     display: flex;
     height: 94px;

@@ -142,7 +142,7 @@
     }
 }
 
-@media screen and (min-width: 1322px) {
+@media screen and (min-width: 1488px) {
     .exerience-card-coontainer {
         transform: translateX(-500px) translateY(600px);
     }

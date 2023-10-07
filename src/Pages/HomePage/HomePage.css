@@ -156,3 +156,92 @@
     border-radius: 967.423px;
     background: #7510F7;
 }
+
+/* Import fonts (you can keep them outside media queries) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* Default styles for all screen sizes */
+.home-page {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.sahil-rai-heading {
+    position: relative;
+    margin-top: 0px;
+    margin-top: 3vw; /* Responsive margin using viewport width */
+    font-family: 'Montserrat';
+    font-size: 6vw; /* Responsive font size using viewport width */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 2.28%, rgba(255, 255, 255, 0.49) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.5vw; /* Responsive margin using viewport width */
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .line-container {
+        width: 80%; /* Adjust the width as needed */
+        margin-top: 5vw; /* Responsive margin using viewport width */
+    }
+    
+    .typing-text {
+        font-size: 10vw; /* Responsive font size using viewport width */
+    }
+    
+    .my-bio-line {
+        font-size: 3vw; /* Responsive font size using viewport width */
+    }
+    
+    .pic-and-button {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        margin-top: 5vw; /* Responsive margin using viewport width */
+    }
+    
+    .pic, .my-main-pic {
+        width: 40vw; /* Responsive width using viewport width */
+        height: 40vw; /* Responsive height using viewport width */
+    }
+    
+    .download-cv-button {
+        width: 60%; /* Adjust the width as needed */
+        font-size: 3vw; /* Responsive font size using viewport width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (even smaller screens) */
+    .sahil-rai-heading {
+        font-size: 8vw; /* Responsive font size using viewport width */
+    }
+    
+    .line-container {
+        width: 90%; /* Adjust the width as needed */
+        margin-top: 10vw; /* Responsive margin using viewport width */
+    }
+    
+    .typing-text {
+        font-size: 14vw; /* Responsive font size using viewport width */
+    }
+    
+    .my-bio-line {
+        font-size: 4vw; /* Responsive font size using viewport width */
+    }
+    
+    .pic, .my-main-pic {
+        width: 60vw; /* Responsive width using viewport width */
+        height: 60vw; /* Responsive height using viewport width */
+    }
+    
+    .download-cv-button {
+        width: 80%; /* Adjust the width as needed */
+        font-size: 4vw; /* Responsive font size using viewport width */
+    }
+}
