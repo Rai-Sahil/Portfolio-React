@@ -10,6 +10,7 @@ import ExperiencePage from './Pages/ExperiencePage/ExperiencePage';
 import Footer from './Pages/Footer/Footer';
 import RefPage from './Pages/ReferencePage/RefPage';
 import Courses from './Pages/CoursesPage/CoursesPage';
+import Publication from './Pages/Publication/Publication';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Home />
 
         <Skills />
+
+        <Publication />
 
         <ProjectNavBar />
         <Routes>
