@@ -85,8 +85,12 @@
     background-clip: text;
     -webkit-text-stroke: 2px #343137; 
     transform: translateY(50px);
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
+}
+
+.typewriter {
+    z-index: 1;
 }
 
 .color-text {
@@ -115,7 +119,7 @@
     justify-content: center;
     column-gap: 81px;
     margin-top: 88px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .pic {

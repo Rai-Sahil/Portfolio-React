@@ -1,7 +1,7 @@
 import "./HomePage.css";
 import downButton from "../../Image/down-button.svg";
 import myImage from "../../Image/my-main-pic.png";
-import { useRef } from "react";
+import Typewriter from 'typewriter-effect';
 
 const handleDownloadClick = () => {
   const pdfPatf = '/Users/sahilrai/Downloads/Resume.pdf'
@@ -19,7 +19,14 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="background-text">
-        <div class="typing-text">SOFTWARE DEVELOPER</div>
+        <div class="typing-text">
+        <Typewriter className="typewriter"
+        options={{ 
+          strings: ["SOFTWARE DEVELOPER", "WEB DEVELOPER"],
+          autoStart: true,
+          loop: true,
+        }}></Typewriter>
+        </div>
       </div>
 
       <header className="headings">
