@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Headings from "../../Components/SubHeaders/SubHeader";
 import './CoursesPage.css'
 import CourseCard from "../../Components/CoursesCardComponent/CourseCard";
