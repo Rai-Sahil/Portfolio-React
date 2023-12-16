@@ -5,12 +5,12 @@ import Home from './Pages/HomePage/HomePage';
 import Projects from './Pages/ProjectPage/ProjectPage';
 import Skills from './Pages/SkillsPage/SkillsPage';
 import ProjectNavBar from './NavBars/ProjectNavBar/projectNavBar';
-import projects from './Data/Projects-Data';
 import ExperiencePage from './Pages/ExperiencePage/ExperiencePage';
 import Footer from './Pages/Footer/Footer';
 import RefPage from './Pages/ReferencePage/RefPage';
 import Courses from './Pages/CoursesPage/CoursesPage';
 import Publication from './Pages/Publication/Publication';
+import ProjectDescription from './Pages/ProjectDescriptionPage/ProjectDescription';
 
 function App() {
   return (
@@ -31,6 +31,9 @@ function App() {
           <Route path="/mobile-desktop-apps" element={ <Projects command='MOBILE AND DESKTOP'/> } />
           <Route path="/games" element={ <Projects command='GAMES'/> } />
           <Route path="/rest-of-them" element={ <Projects command=''/> } />
+
+          {/* For Project Description Page */}
+          <Route path="/project/:id" element={ <ProjectDescription/> } />
         </Routes>
 
         <ExperiencePage />
