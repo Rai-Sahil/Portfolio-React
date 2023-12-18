@@ -1,10 +1,16 @@
 import './navBar.css'
 
+function handleSayHelloClick() {
+    const email = 'your_email@example.com'; 
+    const mailtoLink = `mailto:${email}`;
+    window.location.href = mailtoLink;
+}
+
 const NavBar = () => {
     return (
         <nav className='navBar'>
             <span className='sahil-logo'>Sahil</span>
-            <button className='say-hello-btn'>
+            <button className='say-hello-btn' onClick={ handleSayHelloClick } >
                 <span className='say-hello-text'>
                     Say Hello
                 </span>
