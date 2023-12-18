@@ -14,18 +14,45 @@ const handleDownloadClick = () => {
   link.dispatchEvent(new MouseEvent('click'))
 }
 
+const handleScrollDown = () => {
+  const start = window.pageYOffset; // Initial scroll position
+  const end = window.innerHeight; // Target scroll position
+
+  const duration = 1000; // Duration of the scroll animation in milliseconds
+  const startTime = performance.now();
+
+  function scrollAnimation(currentTime) {
+    const elapsedTime = currentTime - startTime;
+    const scroll = easeInOut(elapsedTime, start, end - start, duration);
+    window.scrollTo(0, scroll);
+    if (elapsedTime < duration) {
+      requestAnimationFrame(scrollAnimation);
+    }
+  }
+
+  function easeInOut(t, b, c, d) {
+    // Easing function (optional, provides smoother animation)
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t + b;
+    t--;
+    return (-c / 2) * (t * (t - 2) - 1) + b;
+  }
+
+  requestAnimationFrame(scrollAnimation);
+};
+
 const Home = () => {
 
   return (
     <div className="home-page">
       <div className="background-text">
         <div class="typing-text">
-        <Typewriter className="typewriter"
-        options={{ 
-          strings: ["SOFTWARE DEVELOPER", "WEB DEVELOPER"],
-          autoStart: true,
-          loop: true,
-        }}></Typewriter>
+          <Typewriter className="typewriter"
+            options={{
+              strings: ["SOFTWARE DEVELOPER", "WEB DEVELOPER"],
+              autoStart: true,
+              loop: true,
+            }}></Typewriter>
         </div>
       </div>
 
@@ -39,9 +66,9 @@ const Home = () => {
 
       <div className="pic-and-button">
         <div className="pic">
-          <img src={ myImage } alt='My Pic' className="my-main-pic"/>
+          <img src={myImage} alt='My Pic' className="my-main-pic" />
         </div>
-        <button className="download-cv-button" onClick={ handleDownloadClick }>
+        <button className="download-cv-button" onClick={handleDownloadClick}>
           <p>Download CV</p>
         </button>
       </div>
@@ -53,6 +80,7 @@ const Home = () => {
             className="circular-button"
             src={ downButton }
             alt="Click me to go down"
+            onClick={ handleScrollDown }
           />
           <div className="right-line" />
         </div>
