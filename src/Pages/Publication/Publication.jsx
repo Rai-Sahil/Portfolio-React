@@ -10,7 +10,7 @@ const Publication = () => {
             <div className='publication-card'>
                 <div className='publication-content'>
                     <p className='publication-title'>Evaluation of Pruning Techniques in Neural Network</p>
-                    <p className='publication-author'>Shvetha S Kumar, Reshma R Nayak, Jismi S Kannampuzha, Jeeho Ryoo, Sahil Rai, and Lizy K John</p>
+                    <p className='publication-author'>Shvetha S Kumar, Reshma R Nayak, Jismi S Kannampuzha, Sahil Rai, Jeeho Ryoo and Lizy K John</p>
                     <p className='publication-conference'>IEEE International Performance, Communication and Computing Conference 2023</p>
                 </div>
             </div>
