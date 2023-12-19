@@ -13,7 +13,7 @@ const projects = [
         name: "DocuIns",
         category: "ASPNET",
         overview: "Document Chatbot using AI",
-        content: "The project integrates ASP.NET MVC with Flowise AI's lang chain model via OpenAI API and PineconeAI for vector database for document-centric chatbot. Utilizing serverless microservice, Docker for containerization, SQL Server for Database, Identity and Entity Framework for Auth and custom Naive Bayes Text Classification model.",
+        content: "The project uses ASP.NET MVC with Flowise AI's lang chain model via OpenAI and Pinecone vector DB for document centric chatbot. Utilizing Azure function for serverless microservice, Docker for containerization, SQL Server for Database, Identity and Entity Framework for Auth and custom Naive Bayes Text Classification model.",
         pic: "",
         github: ""
     },
@@ -22,7 +22,7 @@ const projects = [
         name: "CodeCraft",
         category: "ASPNET",
         overview: "Online Python IDE",
-        content: "",
+        content: "Developed a Python web block coding IDE with IronPython for compiler support, integrated OpenAI API for error summarization and code evaluation, employed NoSQL (MongoDB) for data storage/authentication, utilized SignalR for saving real-time code changes in cloud, and implemented a custom decision tree ML model.",
         pic: "",
         github: ""
     },
@@ -31,7 +31,7 @@ const projects = [
         name: "SAR Technology Inc.",
         category: "NODEJS",
         overview: "Image Recognition Platform",
-        content: "",
+        content: "Led a team of 3 to enhance SAR Technology Inc.'s web app for identifying missing persons/assets. Employed concurrent and batch processing, reducing image processing time by 65% to 12 mins for 5000 images. Implemented browser cookies for personalized search and simultaneous API display during processing.",
         pic: "",
         github: ""
     },
@@ -57,7 +57,7 @@ const projects = [
         id: 7,
         name: "Butterfly Effect",
         category: "NODEJS",
-        content: "",
+        content: "Collaborated with a team of 4 to develop global warming based quiz web game using MySQL, Express.js, Node.js, and Heroku. The app featured game progress storage, authentication, and CRUD operations. Concurrency, AJAX requests, and Express server optimization were employed for performance enhancement.",
         overview: "EnviroQuiz Survival Challenge",
         pic: "",
         github: ""
@@ -84,7 +84,7 @@ const projects = [
         id: 10,
         name: "Sahil Rai",
         category: "NODEJS",
-        content: "",
+        content: "The project utilized React.js for frontend, Vercel for hosting, and structured using best practices. As a my personal portfolio, developed by solely by me, it showcases my skills, project, publication, epereince and more with a user-friendly interface, emphasizing efficiency and accessibility.",
         overview: "Portfolio Website",
         pic: "",
         github: ""
