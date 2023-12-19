@@ -2,16 +2,22 @@ import "./HomePage.css";
 import downButton from "../../Image/down-button.svg";
 import myImage from "../../Image/my-main-pic.png";
 import Typewriter from 'typewriter-effect';
+import { saveAs } from 'file-saver';
+import axios from "axios";
 
-const handleDownloadClick = () => {
-  const pdfPatf = '/Users/sahilrai/Downloads/Resume.pdf'
+const handleDownload = () => {
+  const resumeFilePath = '../../../public/Sahil Rai.pdf';
 
-  const link = document.createElement('a')
-  link.href = pdfPatf
-  link.target = '_blank'
-  link.download = 'Resume.pdf'
-
-  link.dispatchEvent(new MouseEvent('click'))
+  fetch(resumeFilePath)
+  .then((response) => response.arrayBuffer())
+  .then((buffer) => {
+    const blob = new Blob([buffer], { type: 'application/pdf' });
+    saveAs(blob, 'resume.pdf');
+  })
+  .catch((error) => {
+    console.error('Error downloading the file:', error);
+    // Handle error if file fetching fails
+  });
 }
 
 const handleScrollDown = () => {
@@ -68,7 +74,7 @@ const Home = () => {
         <div className="pic">
           <img src={myImage} alt='My Pic' className="my-main-pic" />
         </div>
-        <button className="download-cv-button" onClick={handleDownloadClick}>
+        <button className="download-cv-button" onClick={ handleDownload }>
           <p>Download CV</p>
         </button>
       </div>
@@ -78,9 +84,9 @@ const Home = () => {
           <div className="left-line" />
           <img
             className="circular-button"
-            src={ downButton }
+            src={downButton}
             alt="Click me to go down"
-            onClick={ handleScrollDown }
+            onClick={handleScrollDown}
           />
           <div className="right-line" />
         </div>

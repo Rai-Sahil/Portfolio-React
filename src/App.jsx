@@ -26,11 +26,11 @@ function App() {
 
         <ProjectNavBar />
         <Routes>
-          <Route path="/" element={ <Projects command='WEBSITE'/> } />
-          <Route path="/research" element={ <Projects command='RESEARCH'/> } />
-          <Route path="/mobile-desktop-apps" element={ <Projects command='MOBILE AND DESKTOP'/> } />
+          <Route path="/" element={ <Projects command='NODEJS'/> } />
+          <Route path="/aspnet" element={ <Projects command='ASPNET'/> } />
+          <Route path="/mobile" element={ <Projects command='MOBILE'/> } />
+          <Route path="/desktop" element={ <Projects command='DESKTOP'/> } />
           <Route path="/games" element={ <Projects command='GAMES'/> } />
-          <Route path="/rest-of-them" element={ <Projects command=''/> } />
 
           {/* For Project Description Page */}
           <Route path="/project/:id" element={ <ProjectDescription/> } />

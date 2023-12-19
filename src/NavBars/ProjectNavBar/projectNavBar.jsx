@@ -31,27 +31,37 @@ const ProjectNavBar = () => {
                             style={linkStyles('/')}
                             onClick={() => handleLinkClicked('/')}
                         >
-                            Websites
+                            Node.js Websites
                         </Link>
                     </div>
                     <div>
                         <Link
-                            to='/research'
-                            className={`link-style ${location.pathname === '/research' ? 'active-link' : ''}`}
-                            style={linkStyles('/research')}
-                            onClick={() => handleLinkClicked('/research')}
+                            to='/aspnet'
+                            className={`link-style ${location.pathname === '/aspnet' ? 'active-link' : ''}`}
+                            style={linkStyles('/aspnet')}
+                            onClick={() => handleLinkClicked('/aspnet')}
                         >
-                            Research
+                            Asp.Net Websites
                         </Link>
                     </div>
                     <div>
                         <Link
-                            to='/mobile-desktop-apps'
-                            className={`link-style ${location.pathname === '/mobile-desktop-apps' ? 'active-link' : ''}`}
-                            style={linkStyles('/mobile-desktop-apps')}
-                            onClick={() => handleLinkClicked('/mobile-desktop-apps')}
+                            to='/mobile'
+                            className={`link-style ${location.pathname === '/mobile' ? 'active-link' : ''}`}
+                            style={linkStyles('/mobile')}
+                            onClick={() => handleLinkClicked('/mobile')}
                         >
-                            Mobile and Desktop
+                            Kotlin Apps
+                        </Link>
+                    </div>
+                    <div>
+                        <Link
+                            to='/desktop'
+                            className={`link-style ${location.pathname === '/desktop' ? 'active-link' : ''}`}
+                            style={linkStyles('/desktop')}
+                            onClick={() => handleLinkClicked('/desktop')}
+                        >
+                            .NET Apps
                         </Link>
                     </div>
                     <div>
@@ -62,16 +72,6 @@ const ProjectNavBar = () => {
                             onClick={() => handleLinkClicked('/games')}
                         >
                             Games
-                        </Link>
-                    </div>
-                    <div>
-                        <Link
-                            to='/rest'
-                            className={`link-style ${location.pathname === '/rest' ? 'active-link' : ''}`}
-                            style={linkStyles('/rest')}
-                            onClick={() => handleLinkClicked('/rest')}
-                        >
-                            Others/Ongoing
                         </Link>
                     </div>
                 </div>

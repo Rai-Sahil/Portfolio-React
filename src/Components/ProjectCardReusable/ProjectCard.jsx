@@ -6,7 +6,7 @@ const ContentBox = ({ project }) => {
         <div className='content-box'>
             <p className='project-name'>{ project.name.toUpperCase() }</p>
             <p className='project-category'>{ project.overview }</p>
-            <p className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem</p>
+            <p className='project-description'>{ project.content }</p>
             <p className='read-more'>
                 Read More...
             </p>
