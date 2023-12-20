@@ -51,7 +51,7 @@ const ProjectNavBar = () => {
                             style={linkStyles('/mobile')}
                             onClick={() => handleLinkClicked('/mobile')}
                         >
-                            Kotlin Apps
+                            Kotlin Android Apps
                         </Link>
                     </div>
                     <div>

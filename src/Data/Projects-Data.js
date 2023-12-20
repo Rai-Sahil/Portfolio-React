@@ -4,7 +4,7 @@ const projects = [
         name: "Smart Pictionary",
         category: "NODEJS",
         overview: "Interactive AI Guessing Game",
-        content: " React.js app utilizing a DigitalOcean-hosted ML model for image generation, Redis caching for game data storage, and Azure for server-side hosting. Security measures include HTTP-only JWT cookies, prevention of SQL injection via procedural DB calls. Utilized Express.js for API endpoints, tested with Postman.",
+        content: "React.js app utilizing a DigitalOcean-hosted ML model for image generation, Redis caching for game data storage, and Azure for server-side hosting. Security measures include HTTP-only JWT cookies, prevention of SQL injection via procedural DB calls. Utilized Express.js for API endpoints, tested with Postman.",
         pic: "",
         github: ""
     },
@@ -39,7 +39,7 @@ const projects = [
         id: 5,
         name: "ViewVibe",
         category: "DESKTOP",
-        content: "",
+        content: "Developed ViewVibe, a .NET WPF application for video streaming and sharing, similar to YouTube. Leveraging AWS Cloudfront CDN and AWS S3 bucket storage, MongoDB was implemented for data access. Integrated MVVM architecture, FFMPEG for screen recording, and MSTest for robust unit testing.",
         overview: "Video Sharing/Streaming App",
         pic: "",
         github: ""
@@ -48,7 +48,7 @@ const projects = [
         id: 6,
         name: "Budget Barrier",
         category: "MOBILE",
-        content: "",
+        content: "The project encompasses an Android Expense Tracker App developed using Kotlin, employed MVVM architecture with data binding, view bindings, Kotlin Flow, Coroutines, Camera usage with permissions, Firebase integration for user authentication, and a Material design themed XML-based UI layout.",
         overview: "Expense Tracker",
         pic: "",
         github: ""
@@ -66,7 +66,7 @@ const projects = [
         id: 8,
         name: "SpaceSaver",
         category: "GAMES",
-        content: "",
+        content: "SpaceSaver is a captivating GUI game developed using Java and Processing.org, featuring dynamic levels and asteroid gameplay. MongoDB was integrated for user authentication, score tracking, and CRUD operations, while employing Test-Driven Development and JUnit for robustness and reliability.",
         overview: "Java Asteroids Game",
         pic: "",
         github: ""
@@ -75,8 +75,8 @@ const projects = [
         id: 9,
         name: "Activv",
         category: "MOBILE",
-        content: "",
-        overview: "Habbit Tracker",
+        content: "Habit Tracker Android app developed in Kotlin using Jetpack Compose UI for a modern interface. It integrates Firebase for user authentication and data storage. Architecture Components such as LiveData, Kotlin Flow, Bindings and Dependency Injection were implemented to enhance functionality and structure.",
+        overview: "Habit Tracker",
         pic: "",
         github: ""
     },
