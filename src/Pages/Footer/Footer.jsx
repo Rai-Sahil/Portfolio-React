@@ -8,6 +8,7 @@ import phoneImage from '../../Image/telephone.svg'
 import addressImage from '../../Image/Address.svg'
 
 const Footer = () => {
+    
     return (
         <footer className='footer-container'>
             <h1 className='footer-heading'>
@@ -18,7 +19,7 @@ const Footer = () => {
 
             <div className='footer-description'>
                 <h2 className='footer-name'>Sahil Rai</h2>
-                <div className='footer-content'>We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br /> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud equip ex ea commodo consequat... <span className='read-more'>Read More</span></div>
+                <div className='footer-content'>Passionate about leveraging technology to innovate and create meaningful solutions. Constantly exploring the <br /> intersections of code, creativity, and problem-solving to make an impact in the digital realm... <span className='read-more'>Read More</span></div>
             </div>
             <div className='social-links'>
                 <a href='' ><img src={ githubIcon } alt=''/></a>
