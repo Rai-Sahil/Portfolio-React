@@ -1,116 +1,148 @@
 import pythonVector from '../Image/SkillSection/python.svg'
 import jsVector from '../Image/SkillSection/js.svg'
-import dotnetVector from '../Image/dotnet-skill.svg'
-import cssVector from '../Image/SkillSection/css.svg'
-import htmlVector from '../Image/SkillSection/html.svg'
+import dotnet from '../Image/SkillSection/dotnet.svg'
 import mysqlVector from '../Image/mysql-skill.svg'
-import gitVector from '../Image/SkillSection/git.svg'
 import kotlin from '../Image/SkillSection/kotlin.svg'
 import java from '../Image/SkillSection/java.svg'
 import node from '../Image/SkillSection/nodejs.svg'
 import r from '../Image/SkillSection/Rstudio.svg'
-import cpp from '../Image/SkillSection/cpp.svg'
 import aws from '../Image/SkillSection/aws.svg'
 import csharp from '../Image/SkillSection/csharp.svg'
-import graphql from '../Image/SkillSection/graphql.svg'
 import androiddev from '../Image/SkillSection/androiddev.svg'
-import firebase from '../Image/SkillSection/firebase.svg'
-import jest from '../Image/SkillSection/jest.svg'
-import materialUi from '../Image/SkillSection/material-ui.svg'
 import mongodb from '../Image/SkillSection/mongodb.svg'
 import react from '../Image/SkillSection/reactjs.svg'
 import ubuntu from '../Image/SkillSection/ubuntu.svg'
-import vim from '../Image/SkillSection/vim.svg'
+import ts from '../Image/SkillSection/ts.svg'
+import redis from '../Image/SkillSection/redis.svg'
+import kafka from '../Image/SkillSection/kafka.svg'
+import docker from '../Image/SkillSection/docker.svg'
+import sqlserver from '../Image/SkillSection/sqlserver.svg'
+import tailwind from '../Image/SkillSection/tailwind.svg'
+import azure from '../Image/SkillSection/azure.svg'
+import next from '../Image/SkillSection/next.svg'
+import aspnet from '../Image/SkillSection/aspnet.svg'
+import microservices from '../Image/SkillSection/microservice.svg'
+//Aspnet, pandas
+
 
 
 const skills = [
     {
-        name: 'python',
-        title: 'Python',
-        image: pythonVector
-    },    {
+        name: 'typescript',
+        title: 'Typescript',
+        image: ts
+    },
+    {
         name: 'javascript',
         title: 'Javascript',
         image: jsVector
-    },     {
-        name: 'net',
-        title: '.Net',
-        image: dotnetVector
-    },{
-        name: 'git',
-        title: 'Git',
-        image: gitVector
-    },{
-        name: 'mysql',
-        title: 'MySql',
-        image: mysqlVector
-    },{
-        name: 'kotlin',
-        title: 'Kotlin',
-        image: kotlin
-    },{
-        name: 'aws',
-        title: 'AWS',
-        image: aws
-    },{
-        name: 'r',
-        title: 'R',
-        image: r
-    },{
-        name: 'cpp',
-        title: 'CPP',
-        image: cpp
-    },{
+    },
+    {
+        name: 'ASP.NET',
+        title: 'ASP.NET',
+        image: aspnet
+    },
+    {
+        name: 'react',
+        title: 'React.js',
+        image: react
+    },
+    {
         name: 'nodejs',
-        title: 'NodeJS',
+        title: 'Node.js',
         image: node
-    },{
-        name: 'java',
-        title: 'Java',
-        image: java
-    },{
+    },
+    {
         name: 'csharp',
         title: 'C#',
         image: csharp
     },
     {
-        name: 'graphql',
-        title: 'GraphQL',
-        image: graphql
-    },{
-        name: 'androiddev',
-        title: 'Android Dev',
+        name: 'Kotlin',
+        title: 'Kotlin',
+        image: kotlin
+    }, 
+    {
+        name: 'Java',
+        title: 'Java',
+        image: java
+    },
+    {
+        name: 'python',
+        title: 'Python',
+        image: pythonVector
+    },
+    {
+        name: 'android',
+        title: 'Android',
         image: androiddev
+    },
+    {
+        name: '.net',
+        title: '.NET',
+        image: dotnet
+    },
+    {
+        name: 'next',
+        title: 'Next.js',
+        image: next
     },{
-        name: 'firebase',
-        title: 'Firebase',
-        image: firebase
+        name: 'docker',
+        title: 'Docker',
+        image: docker
+    },
+    {
+        name: 'sql',
+        title: 'SQL Server',
+        image: sqlserver
+    }, 
+    {
+        name: 'kafka',
+        title: 'Kafka',
+        image: kafka
     },{
-        name: 'jest',
-        title: 'Jest',
-        image: jest
-    },{
-        name: 'material-ui',
-        title: 'Material UI',
-        image: materialUi
-    },{
-        name: 'mondodb',
+        name: 'redis',
+        title: 'Redis',
+        image: redis
+    },
+    {
+        name: 'serverless',
+        title: 'Serverless',
+        image: microservices
+    },
+    {
+        name: 'aws',
+        title: 'AWS',
+        image: aws
+    },
+    {
+        name: 'azure',
+        title: 'Azure',
+        image: azure
+    },
+    {
+        name: 'mongodb',
         title: 'MongoDB',
         image: mongodb
+    }, {
+        name: 'mysql',
+        title: 'MySQL',
+        image: mysqlVector
     },{
-        name: 'reactjs',
-        title: 'ReactJS',
-        image: react
-    },{
+        name: 'tailwind',
+        title: 'Tailwind',
+        image: tailwind
+    },
+    {
         name: 'ubuntu',
         title: 'Ubuntu',
         image: ubuntu
-    },{
-        name: 'vim',
-        title: 'Vim',
-        image: vim
     },
-
+    {
+        name: 'r',
+        title: 'R',
+        image: r
+    },
 ];
 
 export default skills;
