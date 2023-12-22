@@ -8,7 +8,9 @@ const ContentBox = ({ project }) => {
             <p className='project-category'>{ project.overview }</p>
             <p className='project-description'>{ project.content }</p>
             <p className='read-more'>
-                Read More...
+                <a href={ project.github } target='_blank' rel='noopener noreferrer' className='project-link'>
+                        Read More...
+                </a>
             </p>
         </div>
     )
@@ -17,7 +19,7 @@ const ContentBox = ({ project }) => {
 const ImageBox = ({ project }) => {
     return (
         <div className='image-box'>
-            <img src={ demoImage } className='project-image'/>
+            <img src={ demoImage } alt="Demo Project" className='project-image'/>
         </div>
     )
 }

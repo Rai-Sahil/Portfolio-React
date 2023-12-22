@@ -80,3 +80,8 @@
     font-weight: 500;
     line-height: normal;
 }
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
