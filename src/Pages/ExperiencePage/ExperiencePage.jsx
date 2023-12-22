@@ -1,27 +1,10 @@
-import { useEffect, useState } from 'react';
 import Headings from '../../Components/SubHeaders/SubHeader';
 import './ExperiencePage.css'
 import universityImage from '../../Image/ExperienceSection/University.png'
-
-function ClockLogic() {
-    const [date, setDate] = useState(new Date());
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setDate(new Date());
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, []);
-
-    const hour = date.getHours() * 30 + 180;
-    const minute = date.getMinutes() * 6 + 180;
-
-    return { hour, minute }
-}
+import jobsImage from '../../Image/ExperienceSection/jobs.png'
+import researchImage from '../../Image/ExperienceSection/free-ieee-283154.png'
 
 const ExperiencePage = () => {
-    const hour = ClockLogic().hour
-    const minute = ClockLogic().minute
     
     return (
         <>
@@ -66,10 +49,10 @@ const ExperiencePage = () => {
 
                     <div className='exp-line'>
                         <span className='image-section'>
-                            <img src={ universityImage } className='image'></img>
-                            <img src={ universityImage } className='image'></img>
-                            <img src={ universityImage } className='image'></img>
-                            <img src={ universityImage } className='image'></img>
+                            <img src={ universityImage } alt="University" className='image'></img>
+                            <img src={ jobsImage } alt="Accenture" className='image'></img>
+                            <img src={ jobsImage } alt="Buble" className='image'></img>
+                            <img src={ researchImage } alt="Research" className='image'></img>
                         </span>
                     </div>
                 </div>
