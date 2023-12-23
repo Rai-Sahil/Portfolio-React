@@ -1,7 +1,7 @@
 import './navBar.css'
 
 function handleSayHelloClick() {
-    const email = 'your_email@example.com'; 
+    const email = 'raisahil580@gmail.com'; 
     const mailtoLink = `mailto:${email}`;
     window.location.href = mailtoLink;
 }
