@@ -249,3 +249,7 @@
         font-size: 4vw; /* Responsive font size using viewport width */
     }
 }
+
+.cursor {
+    color: #343137;
+}
