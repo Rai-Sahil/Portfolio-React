@@ -107,7 +107,7 @@
     background-color: transparent; 
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-stroke: 3.5px #343137;
+    -webkit-text-stroke: 3.8px #343137;
     transform: translateY(-20px);
     z-index: -1;
     overflow: hidden;
