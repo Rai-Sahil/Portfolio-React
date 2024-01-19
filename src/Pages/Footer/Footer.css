@@ -11,7 +11,7 @@
 
 .footer-heading {
     font-style: normal;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 600;
     line-height: normal;
     font-family: 'Poppins';
@@ -53,7 +53,7 @@
 
 .footer-name {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 30px;
     line-height: normal;
     font-style: normal;
 }
@@ -93,8 +93,8 @@
     box-shadow: 2px 0px 13px rgba(0, 0, 0, 0.25); /* Remove quotes around box-shadow property values */
     align-items: center;
     display: flex;
-    column-gap: 20px;
-    margin: 10px; /* Add margin to separate contact cards */
+    column-gap: 8px;
+    margin: 30px; /* Add margin to separate contact cards */
 }
 
 .card-content {
@@ -108,7 +108,7 @@
 
 .contact-card-heading {
     font-family: 'Poppins';
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
 }

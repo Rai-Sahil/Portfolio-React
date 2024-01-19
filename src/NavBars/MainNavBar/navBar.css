@@ -41,6 +41,7 @@ nav {
     background-color: transparent;
     overflow: hidden;
     color: #000;
+    cursor: pointer;
     /* Text color */
 }
 

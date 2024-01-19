@@ -25,9 +25,11 @@ const Skills = () => {
                 </div>
             </div>
 
-            <p className="view-more" onClick={handleViewAllClick}>
-                {buttonText}
-            </p>
+            <div className="view-more-container">
+                <p className="view-more" onClick={handleViewAllClick}>
+                    {buttonText}
+                </p>
+            </div>
         </div>
 
     );

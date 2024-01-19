@@ -19,12 +19,12 @@ const ExperiencePage = () => {
                         <p className='exp-card-content'>
                             2022
                         </p>
-                        <div className='description'>Admission into BCIT</div>
+                        <div className='description'>Accenture Internship</div>
                     </div>
 
                     <div className='exp-card2'>
                         <div className='description'>
-                            Accenture Internship <span></span>
+                            Buble Work <span></span>
                         </div>
                         <p className='exp-card-content'>
                         2022
@@ -33,16 +33,15 @@ const ExperiencePage = () => {
 
                     <div className='exp-card1' id='card3'>
                         <p className='exp-card-content'>
-                            2022
+                            2023
                         </p>
-                        <div className='description'>Buble Work</div>
+                        <div className='description'>ML Research</div>
                     </div>
 
-
                     <div className='exp-card2' id='card4'>
-                        <div className='description'>Machine Learning Research</div>
+                        <div className='description'>Horus Computer</div>
                         <p className='exp-card-content'>
-                        2023
+                        2024
                         </p>
                     </div>
                     </div>

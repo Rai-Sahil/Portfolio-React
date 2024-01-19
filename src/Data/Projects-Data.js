@@ -19,9 +19,9 @@ const projects = [
     },
     {
         id: 2,
-        name: "Artist Rooster",
+        name: "City of Vancouver",
         category: "NODEJS",
-        overview: "City of Vancouver - Mural",
+        overview: "Artis Rooster Mural Website",
         content: "The City of Vancouver sponsored project, utilized Node.js for backend, Kafka for admin messages, MySql for data access, Redis for server caching, AWS S3 for artwork images storage, AWS CloudFront CDN for image serving. It's user centric architecture allowing artists to submit applications, admin approval, and user profile generation.",
         pic: "",
         github: "https://muralproject-f78ca.web.app/"
